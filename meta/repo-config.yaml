@@ -1,0 +1,23 @@
+# Protofire GRC Policy Repository Configuration
+framework_name: "Protofire GRC Programme"
+version: "2026-04-08"
+canonical_numbering: "POL-xxx"
+deprecated_numbering: "P-xxx"
+hierarchy_precedence:
+  - L0-Foundation
+  - L1-Policy
+  - L1-Standard
+  - L2-Procedure
+  - L3-WorkInstruction
+  - L4-Guideline
+  - L5-Checklist
+  - L6-Register
+naming_convention: kebab-case
+file_format: markdown
+review_cycle_default: annual
+classification_default: "Confidential — Internal"
+currency_standard: USD
+lifecycle_model_authoritative: 12-step
+lifecycle_model_operational: 8-stage-gate
+lifecycle_model_strategic: 5-phase
+generated_marker: "<!-- GENERATED: true -->"

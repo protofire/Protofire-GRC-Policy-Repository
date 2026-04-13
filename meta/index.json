@@ -1,0 +1,357 @@
+{
+  "framework": "Protofire GRC Programme",
+  "version": "2026-04-08",
+  "hierarchy": "L0 > L1-Policy > L1-Standard > L2 > L3 > L5 > L6",
+  "documents": [
+    {
+      "id": "L0-1",
+      "file": "policies/l0-foundation/l0-1-grc-charter.md",
+      "level": "L0",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "L0-2",
+      "file": "policies/l0-foundation/l0-2-programme-governance-charter.md",
+      "level": "L0",
+      "status": "Draft",
+      "owner": "GRC-Manager"
+    },
+    {
+      "id": "L0-4",
+      "file": "policies/l0-foundation/l0-4-isms-scope-statement.md",
+      "level": "L0",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "L0-5",
+      "file": "policies/l0-foundation/l0-5-risk-appetite-statement.md",
+      "level": "L0",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "GRC-MASTER-001",
+      "file": "policies/l0-foundation/grc-master-001-enterprise-framework.md",
+      "level": "L0",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "GRC-PF-001",
+      "file": "policies/l0-foundation/grc-pf-001-policy-framework.md",
+      "level": "L0",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "GRC-CONC-001",
+      "file": "policies/l0-foundation/grc-conc-001-concordance-table.md",
+      "level": "L0",
+      "status": "Generated",
+      "owner": "GRC-Manager"
+    },
+    {
+      "id": "POL-001",
+      "file": "policies/l1-policies/pol-001-project-governance.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "Node-Owner"
+    },
+    {
+      "id": "POL-002",
+      "file": "policies/l1-policies/pol-002-information-security.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "POL-003",
+      "file": "policies/l1-policies/pol-003-risk-management.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "POL-004",
+      "file": "policies/l1-policies/pol-004-access-control-sod.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "POL-005",
+      "file": "policies/l1-policies/pol-005-change-management.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "Node-Owner"
+    },
+    {
+      "id": "POL-006",
+      "file": "policies/l1-policies/pol-006-testing-qa.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "TL"
+    },
+    {
+      "id": "POL-007",
+      "file": "policies/l1-policies/pol-007-vendor-third-party-risk.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "Node-Owner"
+    },
+    {
+      "id": "POL-008",
+      "file": "policies/l1-policies/pol-008-documentation-records.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "POL-009",
+      "file": "policies/l1-policies/pol-009-exception-deviation.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "POL-010",
+      "file": "policies/l1-policies/pol-010-monitoring-assurance.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "POL-011",
+      "file": "policies/l1-policies/pol-011-data-protection-privacy.md",
+      "level": "L1",
+      "status": "Draft",
+      "owner": "CISO-DPO"
+    },
+    {
+      "id": "L1-ERM-001",
+      "file": "policies/l1-standards/l1-erm-001-risk-governance.md",
+      "level": "L1-STD",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "L1-ENG-002",
+      "file": "policies/l1-standards/l1-eng-002-client-rating.md",
+      "level": "L1-STD",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "L1-SDLC-003",
+      "file": "policies/l1-standards/l1-sdlc-003-secure-delivery.md",
+      "level": "L1-STD",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "L1-EVID-004",
+      "file": "policies/l1-standards/l1-evid-004-evidence-recordkeeping.md",
+      "level": "L1-STD",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "L1-KEY-005",
+      "file": "policies/l1-standards/l1-key-005-key-treasury.md",
+      "level": "L1-STD",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "L1-BC-008",
+      "file": "policies/l1-standards/l1-bc-008-business-continuity.md",
+      "level": "L1-STD",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "L1-INFRA-009",
+      "file": "policies/l1-standards/l1-infra-009-infrastructure-security.md",
+      "level": "L1-STD",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "L1-HR-010",
+      "file": "policies/l1-standards/l1-hr-010-personnel-security.md",
+      "level": "L1-STD",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "OPS-001",
+      "file": "policies/l1-standards/ops-001-risk-scoring-framework.md",
+      "level": "L1-STD",
+      "status": "Approved",
+      "owner": "GRC-Committee"
+    },
+    {
+      "id": "STD-101",
+      "file": "policies/l1-standards/std-101-delivery-security.md",
+      "level": "L2-STD",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "S-109",
+      "file": "policies/l1-standards/s-109-data-classification.md",
+      "level": "L2-STD",
+      "status": "Generated",
+      "owner": "CISO"
+    },
+    {
+      "id": "S-115",
+      "file": "policies/l1-standards/s-115-vendor-security-assessment.md",
+      "level": "L2-STD",
+      "status": "Generated",
+      "owner": "CISO"
+    },
+    {
+      "id": "L2-DEL-101",
+      "file": "policies/l2-procedures/l2-del-101-delivery-governance.md",
+      "level": "L2",
+      "status": "Approved",
+      "owner": "Head-of-Delivery"
+    },
+    {
+      "id": "L2-RISK-102",
+      "file": "policies/l2-procedures/l2-risk-102-risk-operations.md",
+      "level": "L2",
+      "status": "Approved",
+      "owner": "Head-of-Risk"
+    },
+    {
+      "id": "L2-ASSURE-103",
+      "file": "policies/l2-procedures/l2-assure-103-external-assurance.md",
+      "level": "L2",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "L2-INC-201",
+      "file": "policies/l2-procedures/l2-inc-201-incident-response.md",
+      "level": "L2",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "L2-VULN-202",
+      "file": "policies/l2-procedures/l2-vuln-202-vulnerability-management.md",
+      "level": "L2",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "L2-ACCESS-203",
+      "file": "policies/l2-procedures/l2-access-203-jml.md",
+      "level": "L2",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "L2-TEST-204",
+      "file": "policies/l2-procedures/l2-test-204-bcm-dr-testing.md",
+      "level": "L2",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "L2-CHANGE-205",
+      "file": "policies/l2-procedures/l2-change-205-change-management.md",
+      "level": "L2",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "PR-208",
+      "file": "policies/l2-procedures/pr-208-breach-notification.md",
+      "level": "L2",
+      "status": "Generated",
+      "owner": "CISO-DPO"
+    },
+    {
+      "id": "PR-209",
+      "file": "policies/l2-procedures/pr-209-dsr-handling.md",
+      "level": "L2",
+      "status": "Generated",
+      "owner": "CISO-DPO"
+    },
+    {
+      "id": "L3-TEST-204",
+      "file": "policies/l3-work-instructions/l3-test-204-test-evidence.md",
+      "level": "L3",
+      "status": "Approved",
+      "owner": "TL"
+    },
+    {
+      "id": "GL-304",
+      "file": "policies/l3-work-instructions/gl-304-privacy-by-design.md",
+      "level": "L4",
+      "status": "Generated",
+      "owner": "CISO-DPO"
+    },
+    {
+      "id": "CL-PHASE-001",
+      "file": "policies/l5-checklists/cl-phase-001-audit-checklists.md",
+      "level": "L5",
+      "status": "Approved",
+      "owner": "CISO"
+    },
+    {
+      "id": "CL-409",
+      "file": "policies/l5-checklists/cl-409-dpia-screening.md",
+      "level": "L5",
+      "status": "Generated",
+      "owner": "CISO-DPO"
+    },
+    {
+      "id": "CL-411",
+      "file": "policies/l5-checklists/cl-411-signing-ceremony.md",
+      "level": "L5",
+      "status": "Generated",
+      "owner": "CISO"
+    },
+    {
+      "id": "REG-501",
+      "file": "policies/l6-registers/reg-501-risk-register.md",
+      "level": "L6",
+      "status": "Draft",
+      "owner": "CISO"
+    },
+    {
+      "id": "REG-505",
+      "file": "policies/l6-registers/reg-505-ropa.md",
+      "level": "L6",
+      "status": "Generated",
+      "owner": "CISO-DPO"
+    },
+    {
+      "id": "REG-506",
+      "file": "policies/l6-registers/reg-506-exception-register.md",
+      "level": "L6",
+      "status": "Generated",
+      "owner": "CISO"
+    },
+    {
+      "id": "REG-510",
+      "file": "policies/l6-registers/reg-510-dpia-register.md",
+      "level": "L6",
+      "status": "Generated",
+      "owner": "CISO-DPO"
+    },
+    {
+      "id": "REG-511",
+      "file": "policies/l6-registers/reg-511-document-registry.md",
+      "level": "L6",
+      "status": "Generated",
+      "owner": "GRC-Manager"
+    }
+  ]
+}

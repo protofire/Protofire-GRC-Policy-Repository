@@ -1,0 +1,67 @@
+{
+  "POL-001": [
+    "CTL-GOV-001",
+    "CTL-GOV-002",
+    "CTL-GOV-003",
+    "CTL-GOV-004",
+    "CTL-GOV-005",
+    "CTL-GOV-007"
+  ],
+  "POL-002": [
+    "CTL-SEC-001",
+    "CTL-SEC-002",
+    "CTL-SEC-003",
+    "CTL-SEC-004",
+    "CTL-SEC-005",
+    "CTL-SEC-006",
+    "CTL-SEC-008",
+    "CTL-SEC-009",
+    "CTL-SEC-010"
+  ],
+  "POL-003": [
+    "CTL-GOV-005",
+    "CTL-GOV-006"
+  ],
+  "POL-004": [
+    "CTL-ACC-001",
+    "CTL-ACC-002",
+    "CTL-ACC-003",
+    "CTL-ACC-004",
+    "CTL-ACC-005",
+    "CTL-ACC-006",
+    "CTL-SEC-007"
+  ],
+  "POL-005": [
+    "CTL-CHG-001",
+    "CTL-CHG-002",
+    "CTL-CHG-003"
+  ],
+  "POL-006": [
+    "CTL-SEC-001",
+    "CTL-SEC-002",
+    "CTL-ASR-005"
+  ],
+  "POL-007": [
+    "CTL-GOV-003"
+  ],
+  "POL-008": [
+    "CTL-SEC-010"
+  ],
+  "POL-009": [
+    "CTL-GOV-006"
+  ],
+  "POL-010": [
+    "CTL-ASR-001",
+    "CTL-ASR-002",
+    "CTL-ASR-003",
+    "CTL-ASR-004"
+  ],
+  "POL-011": [
+    "CTL-PRI-001",
+    "CTL-PRI-002",
+    "CTL-PRI-003",
+    "CTL-PRI-004",
+    "CTL-PRI-005",
+    "CTL-SEC-008"
+  ]
+}

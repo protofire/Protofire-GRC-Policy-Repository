@@ -1,0 +1,265 @@
+{
+  "L0-1": {
+    "parents": [],
+    "children": [
+      "L0-2",
+      "L0-4",
+      "L0-5",
+      "GRC-PF-001",
+      "GRC-MASTER-001"
+    ]
+  },
+  "L0-2": {
+    "parents": [
+      "L0-1"
+    ],
+    "children": []
+  },
+  "L0-4": {
+    "parents": [
+      "L0-1"
+    ],
+    "children": []
+  },
+  "L0-5": {
+    "parents": [
+      "L0-1"
+    ],
+    "children": [
+      "L1-ERM-001"
+    ]
+  },
+  "GRC-PF-001": {
+    "parents": [
+      "L0-1"
+    ],
+    "children": [
+      "POL-001",
+      "POL-002",
+      "POL-003",
+      "POL-004",
+      "POL-005",
+      "POL-006",
+      "POL-007",
+      "POL-008",
+      "POL-009",
+      "POL-010",
+      "STD-101"
+    ]
+  },
+  "GRC-MASTER-001": {
+    "parents": [
+      "L0-1"
+    ],
+    "children": [
+      "GRC-PF-001"
+    ]
+  },
+  "GRC-CONC-001": {
+    "parents": [
+      "L0-1"
+    ],
+    "children": []
+  },
+  "POL-001": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "STD-101",
+      "L2-DEL-101"
+    ]
+  },
+  "POL-002": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "L1-SDLC-003",
+      "L1-KEY-005",
+      "L1-INFRA-009"
+    ]
+  },
+  "POL-003": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "L1-ERM-001",
+      "OPS-001",
+      "L2-RISK-102"
+    ]
+  },
+  "POL-004": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "L2-ACCESS-203",
+      "L1-HR-010"
+    ]
+  },
+  "POL-005": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "L2-CHANGE-205"
+    ]
+  },
+  "POL-006": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "L2-ASSURE-103",
+      "L3-TEST-204"
+    ]
+  },
+  "POL-007": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "S-115"
+    ]
+  },
+  "POL-008": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "L1-EVID-004"
+    ]
+  },
+  "POL-009": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "REG-506"
+    ]
+  },
+  "POL-010": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "L2-RISK-102",
+      "L2-INC-201"
+    ]
+  },
+  "POL-011": {
+    "parents": [
+      "GRC-PF-001"
+    ],
+    "children": [
+      "PR-208",
+      "PR-209",
+      "GL-304",
+      "CL-409",
+      "REG-505",
+      "REG-510"
+    ]
+  },
+  "L1-ERM-001": {
+    "parents": [
+      "L0-5",
+      "POL-003"
+    ],
+    "children": [
+      "OPS-001",
+      "L2-RISK-102",
+      "REG-501"
+    ]
+  },
+  "L1-SDLC-003": {
+    "parents": [
+      "POL-002"
+    ],
+    "children": [
+      "L2-DEL-101",
+      "L2-ASSURE-103",
+      "CL-PHASE-001",
+      "STD-101"
+    ]
+  },
+  "L1-KEY-005": {
+    "parents": [
+      "POL-002"
+    ],
+    "children": [
+      "CL-411"
+    ]
+  },
+  "L1-BC-008": {
+    "parents": [
+      "POL-002"
+    ],
+    "children": [
+      "L2-TEST-204"
+    ]
+  },
+  "L1-EVID-004": {
+    "parents": [
+      "POL-008"
+    ],
+    "children": []
+  },
+  "L1-ENG-002": {
+    "parents": [
+      "L0-1"
+    ],
+    "children": []
+  },
+  "L1-INFRA-009": {
+    "parents": [
+      "POL-002"
+    ],
+    "children": [
+      "L2-CHANGE-205",
+      "L2-ACCESS-203",
+      "L2-VULN-202"
+    ]
+  },
+  "L1-HR-010": {
+    "parents": [
+      "POL-004"
+    ],
+    "children": [
+      "L2-ACCESS-203"
+    ]
+  },
+  "OPS-001": {
+    "parents": [
+      "L1-ERM-001"
+    ],
+    "children": [
+      "REG-501"
+    ]
+  },
+  "STD-101": {
+    "parents": [
+      "POL-001",
+      "L1-SDLC-003"
+    ],
+    "children": [
+      "CL-PHASE-001"
+    ]
+  },
+  "S-109": {
+    "parents": [
+      "POL-004",
+      "POL-011"
+    ],
+    "children": []
+  },
+  "S-115": {
+    "parents": [
+      "POL-007"
+    ],
+    "children": [
+      "CL-407"
+    ]
+  }
+}

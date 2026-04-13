@@ -1,0 +1,34 @@
+{
+  "supersessions": [
+    {
+      "old": "GL1-INFO-006",
+      "new": "POL-002",
+      "date": "2026-03-12",
+      "reason": "Normalized roles; added metadata; aligned to GRC-PF-001"
+    },
+    {
+      "old": "L2-ASSURE-103-v0.9",
+      "new": "L2-ASSURE-103",
+      "date": "2026-03-30",
+      "reason": "Currency standardized to USD; approval authority updated"
+    },
+    {
+      "old": "P-001 (v1.0 numbering)",
+      "new": "POL-002",
+      "date": "2026-03-12",
+      "reason": "Numbering scheme migration per GRC-CONC-001"
+    },
+    {
+      "old": "P-002 (v1.0 numbering)",
+      "new": "POL-003",
+      "date": "2026-03-12",
+      "reason": "Numbering scheme migration per GRC-CONC-001"
+    },
+    {
+      "old": "P-003 (v1.0 numbering)",
+      "new": "POL-011",
+      "date": "2026-04-03",
+      "reason": "Numbering scheme migration per GRC-CONC-001"
+    }
+  ]
+}
