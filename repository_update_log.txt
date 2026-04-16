@@ -1,0 +1,686 @@
+================================================================================
+PROTOFIRE GRC REPOSITORY ACTUALIZATION LOG
+Run time  : 2026-04-16 16:11:34
+Repository: C:\Work\protofire\Protofire-GRC-Policy-Repository
+Reference : C:\Work\protofire\Protofire-GRC-Policy-Repository\reference_policies
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1 — REFERENCE DOCUMENTS SCANNED
+--------------------------------------------------------------------------------
+Total active files in reference_policies: 85
+Files covered by mapping: 85
+Active DOCX files not in mapping (see Section 6): 0
+
+  CL-409_DPIA_Screening_Checklist.docx
+  CL-411_Signing_Ceremony_Checklist.docx
+  CL-PHASE-001_Audit_Phase_Checklists.docx
+  DAO-001_DAO-Governed_Platforms_Privacy_Policy_Template.docx
+  DPA-001_Data_Processing_Agreement_Template.docx
+  GL-304_Privacy_by_Design_Guideline.docx
+  GL-305_Signer_OPSEC_Guideline.docx
+  GRC-CONC-001_Document_Numbering_Concordance_Table.docx
+  GRC-MASTER-001_Enterprise_GRC_Framework_v1.1.docx
+  GRC-PF-001_Governance_and_Security_Policy_Framework.docx
+  IAP-001_Internal_Audit_Programme.docx
+  L0-1_GRC_Charter_Information_Security_v1.0.docx
+  L0-2_GRC_Programme_Governance_Charter_v1.0.docx
+  L0-3_GRC_Charter.docx
+  L0-4_ISMS_Scope_Statement.docx
+  L0-5_Risk_Appetite_Statement.docx
+  L0-6_GRC_Maturity_Model.docx
+  L1-BC-008_Business_Continuity_Standard.docx
+  L1-ENG-002_Client_Rating_and_Commercial_Guardrails_Standard.docx
+  L1-ERM-001_Enterprise_Risk_Governance_and_Acceptance_Authority_Standard_Web3.docx
+  L1-EVID-004_Evidence_and_Recordkeeping_Standard.docx
+  L1-HR-010_Personnel_Security_Standard.docx
+  L1-INFRA-009_Infrastructure_Security_Baseline_Standard.docx
+  L1-KEY-005_Key_Treasury_and_Signing_Ceremonies_Standard.docx
+  L1-SDLC-003_Secure_Delivery_Baseline_for_Web3_DeFi.docx
+  L2-ACCESS-203_Access_Management_Procedure_Joiner_Mover_Leaver.docx
+  L2-ASSURE-103_External_Assurance_Procedure_Audit_and_Bug_Bounty.docx
+  L2-CHANGE-205_Change_Management_Procedure.docx
+  L2-DEL-101_8-Stage_Delivery_Governance_Procedure_Track_A_B.docx
+  L2-INC-201_Incident_Response_Procedure.docx
+  L2-RISK-102_Delivery_Risk_Operations_Procedure.docx
+  L2-TEST-204_BCM_DR_Testing_Standard.docx
+  L2-VULN-202_Vulnerability_Management_Procedure.docx
+  L3-TEST-204_Test_Evidence_Standard.docx
+  MAP-001_Control_Mapping_Matrix.docx
+  MSA-001_Security_Clauses_Template.docx
+  OPS-001_Project_Risk_Scoring_Framework.docx
+  PLAN-701_Tabletop_IR_Exercise_Plan.docx
+  PLAN-702_Business_Continuity_Plan.docx
+  PLAN-703_Disaster_Recovery_Plan.docx
+  POL-001_Project_Governance_Policy.docx
+  POL-002_Information_Security_Policy.docx
+  POL-003_Risk_Management_Policy.docx
+  POL-004_Access_Control_SoD_Policy.docx
+  POL-005_Change_Management_Policy.docx
+  POL-006_Testing_QA_Policy.docx
+  POL-007_Vendor_Third_Party_Risk_Policy.docx
+  POL-008_Documentation_Records_Policy.docx
+  POL-009_Exception_Deviation_Policy.docx
+  POL-010_Monitoring_Assurance_Policy.docx
+  POL-011_Data_Protection_Privacy_Policy.docx
+  POL-012_Acceptable_Use_Policy.docx
+  POL-013_Business_Continuity_Policy.docx
+  POL-014_Cryptographic_Controls_Policy.docx
+  POL-015_Personnel_Security_Policy.docx
+  POL-016_Physical_Environmental_Security_Policy.docx
+  POL-017_Incident_Management_Policy.docx
+  PR-208_Breach_Notification_Procedure.docx
+  PR-209_DSR_Handling_Procedure.docx
+  PR-210_Key_Compromise_Response_Procedure.docx
+  RACI-001_Enterprise_RACI.docx
+  RACI-002_Track_B_RACI_Matrix.docx
+  REG-501_Enterprise_Risk_Register.docx
+  REG-502_Vendor_Third_Party_Register.docx
+  REG-503_Asset_Register_CMDB.docx
+  REG-504_Change_Release_Register.docx
+  REG-505_Record_of_Processing_Activities_ROPA.docx
+  REG-506_Exception_Waiver_Register.docx
+  REG-507_Training_Awareness_Register.docx
+  REG-508_Access_Review_Register.docx
+  REG-509_Incident_Register.docx
+  REG-510_DPIA_Register.docx
+  REG-511_Document_Registry.docx
+  REG-512_Evidence_Calendar.docx
+  REG-513_Node_Configuration_Register.docx
+  S-109_Data_Classification_Standard.docx
+  S-115_Vendor_Security_Assessment_Standard.docx
+  SEC-POSTURE-001_Security_Posture_Template.docx
+  SOA-001_Statement_of_Applicability.docx
+  STD-101_Delivery_Security_Standard.docx
+  STD-102_Logging_Monitoring_Standard.docx
+  STD-103_Secure_Development_Standard.docx
+  STD-104_Cryptographic_Controls_Standard.docx
+  STD-105_Transaction_Verification_Simulation_Standard.docx
+  STD-110_KRI_Dashboard_Specification.docx
+
+--------------------------------------------------------------------------------
+SECTION 2 — ALREADY IN REPO (SKIPPED)
+--------------------------------------------------------------------------------
+Count: 0
+
+--------------------------------------------------------------------------------
+SECTION 3 — ADDED TO REPO
+--------------------------------------------------------------------------------
+Count: 35
+
+  [L0-3                ] L0-3_GRC_Charter.docx
+    Source    : reference_policies/L0-3_GRC_Charter.docx
+    Target    : policies/l0-foundation/l0-3-grc-charter.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l0-foundation
+
+  [L0-6                ] L0-6_GRC_Maturity_Model.docx
+    Source    : reference_policies/L0-6_GRC_Maturity_Model.docx
+    Target    : policies/l0-foundation/l0-6-grc-maturity-model.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l0-foundation
+
+  [SOA-001             ] SOA-001_Statement_of_Applicability.docx
+    Source    : reference_policies/SOA-001_Statement_of_Applicability.docx
+    Target    : policies/l0-foundation/soa-001-statement-of-applicability.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l0-foundation
+
+  [IAP-001             ] IAP-001_Internal_Audit_Programme.docx
+    Source    : reference_policies/IAP-001_Internal_Audit_Programme.docx
+    Target    : policies/l0-foundation/iap-001-internal-audit-programme.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l0-foundation
+
+  [RACI-001            ] RACI-001_Enterprise_RACI.docx
+    Source    : reference_policies/RACI-001_Enterprise_RACI.docx
+    Target    : policies/l0-foundation/raci-001-enterprise-raci.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l0-foundation
+
+  [RACI-002            ] RACI-002_Track_B_RACI_Matrix.docx
+    Source    : reference_policies/RACI-002_Track_B_RACI_Matrix.docx
+    Target    : policies/l0-foundation/raci-002-track-b-raci.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l0-foundation
+
+  [SEC-POSTURE-001     ] SEC-POSTURE-001_Security_Posture_Template.docx
+    Source    : reference_policies/SEC-POSTURE-001_Security_Posture_Template.docx
+    Target    : policies/l0-foundation/sec-posture-001-security-posture-template.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l0-foundation
+
+  [POL-012             ] POL-012_Acceptable_Use_Policy.docx
+    Source    : reference_policies/POL-012_Acceptable_Use_Policy.docx
+    Target    : policies/l1-policies/pol-012-acceptable-use.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-policies
+
+  [POL-013             ] POL-013_Business_Continuity_Policy.docx
+    Source    : reference_policies/POL-013_Business_Continuity_Policy.docx
+    Target    : policies/l1-policies/pol-013-business-continuity.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-policies
+
+  [POL-014             ] POL-014_Cryptographic_Controls_Policy.docx
+    Source    : reference_policies/POL-014_Cryptographic_Controls_Policy.docx
+    Target    : policies/l1-policies/pol-014-cryptographic-controls.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-policies
+
+  [POL-015             ] POL-015_Personnel_Security_Policy.docx
+    Source    : reference_policies/POL-015_Personnel_Security_Policy.docx
+    Target    : policies/l1-policies/pol-015-personnel-security.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-policies
+
+  [POL-016             ] POL-016_Physical_Environmental_Security_Policy.docx
+    Source    : reference_policies/POL-016_Physical_Environmental_Security_Policy.docx
+    Target    : policies/l1-policies/pol-016-physical-environmental-security.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-policies
+
+  [POL-017             ] POL-017_Incident_Management_Policy.docx
+    Source    : reference_policies/POL-017_Incident_Management_Policy.docx
+    Target    : policies/l1-policies/pol-017-incident-management.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-policies
+
+  [DAO-001             ] DAO-001_DAO-Governed_Platforms_Privacy_Policy_Template.docx
+    Source    : reference_policies/DAO-001_DAO-Governed_Platforms_Privacy_Policy_Template.docx
+    Target    : policies/l1-policies/dao-001-dao-privacy-policy-template.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l1-policies
+
+  [STD-102             ] STD-102_Logging_Monitoring_Standard.docx
+    Source    : reference_policies/STD-102_Logging_Monitoring_Standard.docx
+    Target    : policies/l1-standards/std-102-logging-monitoring.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-standards
+
+  [STD-103             ] STD-103_Secure_Development_Standard.docx
+    Source    : reference_policies/STD-103_Secure_Development_Standard.docx
+    Target    : policies/l1-standards/std-103-secure-development.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-standards
+
+  [STD-104             ] STD-104_Cryptographic_Controls_Standard.docx
+    Source    : reference_policies/STD-104_Cryptographic_Controls_Standard.docx
+    Target    : policies/l1-standards/std-104-cryptographic-controls.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-standards
+
+  [STD-105             ] STD-105_Transaction_Verification_Simulation_Standard.docx
+    Source    : reference_policies/STD-105_Transaction_Verification_Simulation_Standard.docx
+    Target    : policies/l1-standards/std-105-transaction-verification.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-standards
+
+  [STD-110             ] STD-110_KRI_Dashboard_Specification.docx
+    Source    : reference_policies/STD-110_KRI_Dashboard_Specification.docx
+    Target    : policies/l1-standards/std-110-kri-dashboard.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l1-standards
+
+  [PR-210              ] PR-210_Key_Compromise_Response_Procedure.docx
+    Source    : reference_policies/PR-210_Key_Compromise_Response_Procedure.docx
+    Target    : policies/l2-procedures/pr-210-key-compromise-response.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l2-procedures
+
+  [GL-305              ] GL-305_Signer_OPSEC_Guideline.docx
+    Source    : reference_policies/GL-305_Signer_OPSEC_Guideline.docx
+    Target    : policies/l3-work-instructions/gl-305-signer-opsec.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l3-work-instructions
+
+  [PLAN-701            ] PLAN-701_Tabletop_IR_Exercise_Plan.docx
+    Source    : reference_policies/PLAN-701_Tabletop_IR_Exercise_Plan.docx
+    Target    : policies/l4-plans/plan-701-tabletop-ir-exercise.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l4-plans
+
+  [PLAN-702            ] PLAN-702_Business_Continuity_Plan.docx
+    Source    : reference_policies/PLAN-702_Business_Continuity_Plan.docx
+    Target    : policies/l4-plans/plan-702-business-continuity-plan.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l4-plans
+
+  [PLAN-703            ] PLAN-703_Disaster_Recovery_Plan.docx
+    Source    : reference_policies/PLAN-703_Disaster_Recovery_Plan.docx
+    Target    : policies/l4-plans/plan-703-disaster-recovery-plan.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/l4-plans
+
+  [REG-502             ] REG-502_Vendor_Third_Party_Register.docx
+    Source    : reference_policies/REG-502_Vendor_Third_Party_Register.docx
+    Target    : policies/l6-registers/reg-502-vendor-register.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l6-registers
+
+  [REG-503             ] REG-503_Asset_Register_CMDB.docx
+    Source    : reference_policies/REG-503_Asset_Register_CMDB.docx
+    Target    : policies/l6-registers/reg-503-asset-register-cmdb.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l6-registers
+
+  [REG-504             ] REG-504_Change_Release_Register.docx
+    Source    : reference_policies/REG-504_Change_Release_Register.docx
+    Target    : policies/l6-registers/reg-504-change-release-register.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l6-registers
+
+  [REG-507             ] REG-507_Training_Awareness_Register.docx
+    Source    : reference_policies/REG-507_Training_Awareness_Register.docx
+    Target    : policies/l6-registers/reg-507-training-register.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l6-registers
+
+  [REG-508             ] REG-508_Access_Review_Register.docx
+    Source    : reference_policies/REG-508_Access_Review_Register.docx
+    Target    : policies/l6-registers/reg-508-access-review-register.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l6-registers
+
+  [REG-509             ] REG-509_Incident_Register.docx
+    Source    : reference_policies/REG-509_Incident_Register.docx
+    Target    : policies/l6-registers/reg-509-incident-register.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l6-registers
+
+  [REG-512             ] REG-512_Evidence_Calendar.docx
+    Source    : reference_policies/REG-512_Evidence_Calendar.docx
+    Target    : policies/l6-registers/reg-512-evidence-calendar.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l6-registers
+
+  [REG-513             ] REG-513_Node_Configuration_Register.docx
+    Source    : reference_policies/REG-513_Node_Configuration_Register.docx
+    Target    : policies/l6-registers/reg-513-node-configuration-register.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : No
+    Note      : New file created. Folder created if needed: policies/l6-registers
+
+  [MAP-001             ] MAP-001_Control_Mapping_Matrix.docx
+    Source    : reference_policies/MAP-001_Control_Mapping_Matrix.docx
+    Target    : mappings/map-001-control-mapping-matrix.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: mappings
+
+  [DPA-001             ] DPA-001_Data_Processing_Agreement_Template.docx
+    Source    : reference_policies/DPA-001_Data_Processing_Agreement_Template.docx
+    Target    : policies/legal-templates/dpa-001-data-processing-agreement.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/legal-templates
+
+  [MSA-001             ] MSA-001_Security_Clauses_Template.docx
+    Source    : reference_policies/MSA-001_Security_Clauses_Template.docx
+    Target    : policies/legal-templates/msa-001-security-clauses.md
+    Action    : converted DOCX→MD + written
+    Ambiguous : YES — see Section 7
+    Note      : New file created. Folder created if needed: policies/legal-templates
+
+--------------------------------------------------------------------------------
+SECTION 4 — CONFLICTS (file exists but content differs significantly)
+--------------------------------------------------------------------------------
+Count: 50
+
+  [L0-1                ] L0-1_GRC_Charter_Information_Security_v1.0.docx
+    -> policies/l0-foundation/l0-1-grc-charter.md
+    Note: Existing repo file has 560 words; DOCX conversion yields 4581 words (718% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L0-2                ] L0-2_GRC_Programme_Governance_Charter_v1.0.docx
+    -> policies/l0-foundation/l0-2-programme-governance-charter.md
+    Note: Existing repo file has 459 words; DOCX conversion yields 3828 words (734% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L0-4                ] L0-4_ISMS_Scope_Statement.docx
+    -> policies/l0-foundation/l0-4-isms-scope-statement.md
+    Note: Existing repo file has 188 words; DOCX conversion yields 566 words (201% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L0-5                ] L0-5_Risk_Appetite_Statement.docx
+    -> policies/l0-foundation/l0-5-risk-appetite-statement.md
+    Note: Existing repo file has 258 words; DOCX conversion yields 558 words (116% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [GRC-MASTER-001      ] GRC-MASTER-001_Enterprise_GRC_Framework_v1.1.docx
+    -> policies/l0-foundation/grc-master-001-enterprise-framework.md
+    Note: Existing repo file has 177 words; DOCX conversion yields 15547 words (8684% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [GRC-PF-001          ] GRC-PF-001_Governance_and_Security_Policy_Framework.docx
+    -> policies/l0-foundation/grc-pf-001-policy-framework.md
+    Note: Existing repo file has 167 words; DOCX conversion yields 886 words (431% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [GRC-CONC-001        ] GRC-CONC-001_Document_Numbering_Concordance_Table.docx
+    -> policies/l0-foundation/grc-conc-001-concordance-table.md
+    Note: Existing repo file has 354 words; DOCX conversion yields 1003 words (183% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-001             ] POL-001_Project_Governance_Policy.docx
+    -> policies/l1-policies/pol-001-project-governance.md
+    Note: Existing repo file has 341 words; DOCX conversion yields 895 words (162% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-002             ] POL-002_Information_Security_Policy.docx
+    -> policies/l1-policies/pol-002-information-security.md
+    Note: Existing repo file has 466 words; DOCX conversion yields 925 words (98% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-003             ] POL-003_Risk_Management_Policy.docx
+    -> policies/l1-policies/pol-003-risk-management.md
+    Note: Existing repo file has 251 words; DOCX conversion yields 720 words (187% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-004             ] POL-004_Access_Control_SoD_Policy.docx
+    -> policies/l1-policies/pol-004-access-control-sod.md
+    Note: Existing repo file has 301 words; DOCX conversion yields 738 words (145% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-005             ] POL-005_Change_Management_Policy.docx
+    -> policies/l1-policies/pol-005-change-management.md
+    Note: Existing repo file has 203 words; DOCX conversion yields 672 words (231% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-006             ] POL-006_Testing_QA_Policy.docx
+    -> policies/l1-policies/pol-006-testing-qa.md
+    Note: Existing repo file has 181 words; DOCX conversion yields 636 words (251% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-007             ] POL-007_Vendor_Third_Party_Risk_Policy.docx
+    -> policies/l1-policies/pol-007-vendor-third-party-risk.md
+    Note: Existing repo file has 189 words; DOCX conversion yields 719 words (280% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-008             ] POL-008_Documentation_Records_Policy.docx
+    -> policies/l1-policies/pol-008-documentation-records.md
+    Note: Existing repo file has 188 words; DOCX conversion yields 724 words (285% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-009             ] POL-009_Exception_Deviation_Policy.docx
+    -> policies/l1-policies/pol-009-exception-deviation.md
+    Note: Existing repo file has 186 words; DOCX conversion yields 666 words (258% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-010             ] POL-010_Monitoring_Assurance_Policy.docx
+    -> policies/l1-policies/pol-010-monitoring-assurance.md
+    Note: Existing repo file has 198 words; DOCX conversion yields 682 words (244% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [POL-011             ] POL-011_Data_Protection_Privacy_Policy.docx
+    -> policies/l1-policies/pol-011-data-protection-privacy.md
+    Note: Existing repo file has 508 words; DOCX conversion yields 2182 words (330% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L1-ERM-001          ] L1-ERM-001_Enterprise_Risk_Governance_and_Acceptance_Authority_Standard_Web3.docx
+    -> policies/l1-standards/l1-erm-001-risk-governance.md
+    Note: Existing repo file has 183 words; DOCX conversion yields 932 words (409% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L1-ENG-002          ] L1-ENG-002_Client_Rating_and_Commercial_Guardrails_Standard.docx
+    -> policies/l1-standards/l1-eng-002-client-rating.md
+    Note: Existing repo file has 156 words; DOCX conversion yields 515 words (230% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L1-SDLC-003         ] L1-SDLC-003_Secure_Delivery_Baseline_for_Web3_DeFi.docx
+    -> policies/l1-standards/l1-sdlc-003-secure-delivery.md
+    Note: Existing repo file has 198 words; DOCX conversion yields 388 words (96% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L1-EVID-004         ] L1-EVID-004_Evidence_and_Recordkeeping_Standard.docx
+    -> policies/l1-standards/l1-evid-004-evidence-recordkeeping.md
+    Note: Existing repo file has 133 words; DOCX conversion yields 380 words (186% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L1-KEY-005          ] L1-KEY-005_Key_Treasury_and_Signing_Ceremonies_Standard.docx
+    -> policies/l1-standards/l1-key-005-key-treasury.md
+    Note: Existing repo file has 136 words; DOCX conversion yields 332 words (144% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L1-BC-008           ] L1-BC-008_Business_Continuity_Standard.docx
+    -> policies/l1-standards/l1-bc-008-business-continuity.md
+    Note: Existing repo file has 139 words; DOCX conversion yields 786 words (465% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L1-INFRA-009        ] L1-INFRA-009_Infrastructure_Security_Baseline_Standard.docx
+    -> policies/l1-standards/l1-infra-009-infrastructure-security.md
+    Note: Existing repo file has 139 words; DOCX conversion yields 474 words (241% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L1-HR-010           ] L1-HR-010_Personnel_Security_Standard.docx
+    -> policies/l1-standards/l1-hr-010-personnel-security.md
+    Note: Existing repo file has 135 words; DOCX conversion yields 605 words (348% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [OPS-001             ] OPS-001_Project_Risk_Scoring_Framework.docx
+    -> policies/l1-standards/ops-001-risk-scoring-framework.md
+    Note: Existing repo file has 139 words; DOCX conversion yields 2861 words (1958% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [S-109               ] S-109_Data_Classification_Standard.docx
+    -> policies/l1-standards/s-109-data-classification.md
+    Note: Existing repo file has 277 words; DOCX conversion yields 858 words (210% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [S-115               ] S-115_Vendor_Security_Assessment_Standard.docx
+    -> policies/l1-standards/s-115-vendor-security-assessment.md
+    Note: Existing repo file has 256 words; DOCX conversion yields 878 words (243% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [STD-101             ] STD-101_Delivery_Security_Standard.docx
+    -> policies/l1-standards/std-101-delivery-security.md
+    Note: Existing repo file has 167 words; DOCX conversion yields 929 words (456% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L2-DEL-101          ] L2-DEL-101_8-Stage_Delivery_Governance_Procedure_Track_A_B.docx
+    -> policies/l2-procedures/l2-del-101-delivery-governance.md
+    Note: Existing repo file has 142 words; DOCX conversion yields 537 words (278% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L2-RISK-102         ] L2-RISK-102_Delivery_Risk_Operations_Procedure.docx
+    -> policies/l2-procedures/l2-risk-102-risk-operations.md
+    Note: Existing repo file has 120 words; DOCX conversion yields 239 words (99% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L2-ASSURE-103       ] L2-ASSURE-103_External_Assurance_Procedure_Audit_and_Bug_Bounty.docx
+    -> policies/l2-procedures/l2-assure-103-external-assurance.md
+    Note: Existing repo file has 149 words; DOCX conversion yields 496 words (233% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L2-INC-201          ] L2-INC-201_Incident_Response_Procedure.docx
+    -> policies/l2-procedures/l2-inc-201-incident-response.md
+    Note: Existing repo file has 144 words; DOCX conversion yields 896 words (522% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L2-VULN-202         ] L2-VULN-202_Vulnerability_Management_Procedure.docx
+    -> policies/l2-procedures/l2-vuln-202-vulnerability-management.md
+    Note: Existing repo file has 116 words; DOCX conversion yields 752 words (548% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L2-ACCESS-203       ] L2-ACCESS-203_Access_Management_Procedure_Joiner_Mover_Leaver.docx
+    -> policies/l2-procedures/l2-access-203-jml.md
+    Note: Existing repo file has 140 words; DOCX conversion yields 783 words (459% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L2-TEST-204         ] L2-TEST-204_BCM_DR_Testing_Standard.docx
+    -> policies/l2-procedures/l2-test-204-bcm-dr-testing.md
+    Note: Existing repo file has 116 words; DOCX conversion yields 719 words (520% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L2-CHANGE-205       ] L2-CHANGE-205_Change_Management_Procedure.docx
+    -> policies/l2-procedures/l2-change-205-change-management.md
+    Note: Existing repo file has 134 words; DOCX conversion yields 733 words (447% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [PR-208              ] PR-208_Breach_Notification_Procedure.docx
+    -> policies/l2-procedures/pr-208-breach-notification.md
+    Note: Existing repo file has 162 words; DOCX conversion yields 966 words (496% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [PR-209              ] PR-209_DSR_Handling_Procedure.docx
+    -> policies/l2-procedures/pr-209-dsr-handling.md
+    Note: Existing repo file has 147 words; DOCX conversion yields 826 words (462% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [GL-304              ] GL-304_Privacy_by_Design_Guideline.docx
+    -> policies/l3-work-instructions/gl-304-privacy-by-design.md
+    Note: Existing repo file has 165 words; DOCX conversion yields 1052 words (538% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [L3-TEST-204         ] L3-TEST-204_Test_Evidence_Standard.docx
+    -> policies/l3-work-instructions/l3-test-204-test-evidence.md
+    Note: Existing repo file has 148 words; DOCX conversion yields 393 words (166% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [CL-PHASE-001        ] CL-PHASE-001_Audit_Phase_Checklists.docx
+    -> policies/l5-checklists/cl-phase-001-audit-checklists.md
+    Note: Existing repo file has 282 words; DOCX conversion yields 25780 words (9042% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [CL-409              ] CL-409_DPIA_Screening_Checklist.docx
+    -> policies/l5-checklists/cl-409-dpia-screening.md
+    Note: Existing repo file has 215 words; DOCX conversion yields 768 words (257% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [CL-411              ] CL-411_Signing_Ceremony_Checklist.docx
+    -> policies/l5-checklists/cl-411-signing-ceremony.md
+    Note: Existing repo file has 276 words; DOCX conversion yields 840 words (204% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [REG-501             ] REG-501_Enterprise_Risk_Register.docx
+    -> policies/l6-registers/reg-501-risk-register.md
+    Note: Existing repo file has 237 words; DOCX conversion yields 1137 words (380% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [REG-505             ] REG-505_Record_of_Processing_Activities_ROPA.docx
+    -> policies/l6-registers/reg-505-ropa.md
+    Note: Existing repo file has 173 words; DOCX conversion yields 1019 words (489% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [REG-506             ] REG-506_Exception_Waiver_Register.docx
+    -> policies/l6-registers/reg-506-exception-register.md
+    Note: Existing repo file has 155 words; DOCX conversion yields 789 words (409% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [REG-510             ] REG-510_DPIA_Register.docx
+    -> policies/l6-registers/reg-510-dpia-register.md
+    Note: Existing repo file has 147 words; DOCX conversion yields 753 words (412% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+  [REG-511             ] REG-511_Document_Registry.docx
+    -> policies/l6-registers/reg-511-document-registry.md
+    Note: Existing repo file has 148 words; DOCX conversion yields 783 words (429% difference). Manual review required.
+    Action required: Compare DOCX source with repo MD; merge manually.
+
+--------------------------------------------------------------------------------
+SECTION 5 — ERRORS
+--------------------------------------------------------------------------------
+Count: 0
+
+--------------------------------------------------------------------------------
+SECTION 6 — UNMAPPED REFERENCE FILES (in reference_policies but not in mapping)
+--------------------------------------------------------------------------------
+Count: 0
+
+--------------------------------------------------------------------------------
+SECTION 7 — AMBIGUITIES / MANUAL REVIEW REQUIRED
+--------------------------------------------------------------------------------
+Count: 14
+
+  L0-3                 -> policies/l0-foundation/l0-3-grc-charter.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  L0-6                 -> policies/l0-foundation/l0-6-grc-maturity-model.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  SOA-001              -> policies/l0-foundation/soa-001-statement-of-applicability.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  IAP-001              -> policies/l0-foundation/iap-001-internal-audit-programme.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  RACI-001             -> policies/l0-foundation/raci-001-enterprise-raci.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  RACI-002             -> policies/l0-foundation/raci-002-track-b-raci.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  SEC-POSTURE-001      -> policies/l0-foundation/sec-posture-001-security-posture-template.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  DAO-001              -> policies/l1-policies/dao-001-dao-privacy-policy-template.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  PLAN-701             -> policies/l4-plans/plan-701-tabletop-ir-exercise.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  PLAN-702             -> policies/l4-plans/plan-702-business-continuity-plan.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  PLAN-703             -> policies/l4-plans/plan-703-disaster-recovery-plan.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  MAP-001              -> mappings/map-001-control-mapping-matrix.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  DPA-001              -> policies/legal-templates/dpa-001-data-processing-agreement.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+  MSA-001              -> policies/legal-templates/msa-001-security-clauses.md
+  Reason: No pre-existing folder for this document type; placement based on closest existing pattern. Manual review recommended.
+
+--------------------------------------------------------------------------------
+SECTION 8 — CONSISTENCY ISSUES
+--------------------------------------------------------------------------------
+Count: 0
+
+
+================================================================================
+SUMMARY
+================================================================================
+  Reference files scanned  : 85
+  Already in repo (skipped): 0
+  Added to repo            : 35
+  Conflicts (not written)  : 50
+  Errors                   : 0
+  Unmapped active files    : 0
+  Consistency issues found : 0
+  Ambiguous placements     : 14
+
+  New subfolders created   :
+    mappings
+    policies/l0-foundation
+    policies/l1-policies
+    policies/l1-standards
+    policies/l2-procedures
+    policies/l3-work-instructions
+    policies/l4-plans
+    policies/l6-registers
+    policies/legal-templates
+
+================================================================================
+END OF LOG
+================================================================================

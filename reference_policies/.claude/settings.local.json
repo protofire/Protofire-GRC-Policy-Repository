@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --version)",
+      "Bash(python3 -c \"import docx; print\\('python-docx available'\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python3 -c \"import docx; print\\('python-docx OK'\\)\")",
+      "Bash(python3 -c \"import markdown; print\\('markdown OK'\\)\")",
+      "Bash(python -c \"import docx; print\\('python-docx OK'\\)\" python -c \"import markdown; print\\('markdown OK'\\)\")",
+      "Bash(python -m pip install markdown)",
+      "Bash(python -)",
+      "Bash(grep \"\\\\.md$\")",
+      "Bash(grep \"\\\\.docx$\")",
+      "Bash(grep \"\\\\.xlsx$\")",
+      "Bash(python scripts/update_repo.py)"
+    ]
+  }
+}
