@@ -161,6 +161,12 @@ Supply chain: malicious dependency in a signing tool or SDK that modifies transa
 
 Address poisoning: dust transactions from addresses visually similar to known addresses, hoping signer copies from history
 
+**AI voice clone** (DPRK/nation-state pattern): attacker synthesises the voice of a TL, colleague, or client to request an urgent signing operation via phone call or voice message. The cloned voice is indistinguishable from genuine voice without a challenge word. Incident precedent: $100K Zerion employee funds lost to DPRK-linked AI voice attack (2025).
+
+**AI video deepfake**: real-time deepfake video call impersonates a known individual to create false urgency for a signing action. A live video call is not sufficient proof of identity — require the challenge word.
+
+**Fake hardware wallet / malicious firmware**: counterfeit Ledger or Trezor devices, or manipulated firmware updates distributed via unofficial channels, silently modify transaction parameters before hardware signing. Incident precedent: KuCoin fake Ledger app used to launder $9.5M+ (2025).
+
 ## 4.2 Defence Practices
 
 ALWAYS access signing interfaces via bookmarked URLs - never via links in messages, emails, or search results
@@ -174,6 +180,12 @@ VERIFY out-of-band: if a colleague requests an urgent signature, confirm via a s
 CHECK contract addresses against the authoritative Address Registry - not from the requesting message
 
 REPORT all suspected phishing to CISO within 30 minutes, even if you did not click/sign
+
+**USE the challenge word**: any signing request received via voice call, voice message, or video call must be authenticated with the pre-agreed challenge word before action is taken — a recognised voice or face is not sufficient
+
+**REJECT signing requests via voice alone**: always require written confirmation in an authorised channel (ClickUp task or signed Slack message from the requesting party) before signing based on a voice/video request
+
+**VERIFY hardware wallet firmware** before any signing session if the device has been out of your direct custody; check firmware version against official manufacturer release notes; if in doubt, factory-reset and re-provision
 
 # 5. Operational Practices
 

@@ -25,6 +25,9 @@ last_approval: "Pending"
 | INC-R02 | P0/P1: CISO notified within 1 hour. War room within 2 hours. | `IF severity IN [P0,P1] THEN notify(CISO, 1h); war_room(2h)` |
 | INC-R03 | Post-incident review within 5 business days for P0/P1. | `IF severity IN [P0,P1] THEN post_mortem(5_bdays)` |
 | INC-R04 | Personal data breaches follow POL-011 §8 timelines (4h internal, 72h authority). | `IF personal_data_involved THEN follow(POL-011-R08, POL-011-R09)` |
+| INC-R05 | Extortion / coercion response: if Protofire receives a threat to release internal data, disrupt systems, or harm personnel unless demands are met — classify as P0; do not engage with or respond to the threat actor; notify CISO + Legal + NO within 1 hour; preserve all threat communications as forensic evidence; do not pay under any circumstances. | `IF extortion_threat THEN classify(P0); notify(CISO+Legal+NO, 1h); preserve_evidence; do_not_engage; do_not_pay` |
+| INC-R06 | Extortion comms lockdown: restrict all internal communications about an active extortion incident to the named response team (CISO, NO, Legal) only. No public statement, press release, or client notification without Legal sign-off. Social media silence until Legal approves. | `IF extortion_active THEN restrict_comms(response_team_only); no_public_statement_without_legal` |
+| INC-R07 | AI-enabled social engineering incidents (voice clone, deepfake, AI phishing resulting in action taken): classify as minimum P1; initiate credential rotation for any account that received or acted on the request; preserve conversation artefacts; notify CISO within 1 hour. | `IF ai_social_engineering AND action_taken THEN classify(min_P1); rotate_credentials; notify(CISO, 1h)` |
 
 ## Dependencies
 

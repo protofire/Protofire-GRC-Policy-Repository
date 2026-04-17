@@ -113,7 +113,23 @@ Access is provisioned per the Joiner/Mover/Leaver procedure (PR-206 / L2-ACCESS-
 
 All personnel must complete security awareness training within 30 days of joining and annually thereafter. Training content must cover: information security principles and this Policy; phishing and social engineering recognition; secure coding practices (for engineering roles); key management and handling of secrets; incident reporting obligations; data protection and privacy (POL-011); Web3-specific threats (private key phishing, governance attacks, front-end injection).
 
-### 5.2 Role-specific training
+### 5.2 AI-Enabled Social Engineering Awareness
+
+All personnel must receive specific training on AI-enabled attack vectors at onboarding and annually thereafter. Training must explicitly cover:
+
+**Voice cloning / deepfake audio**: Attackers can synthesise the voice of a colleague, manager, or client to request urgent action (signing, fund transfer, credential sharing). Treat any unexpected voice-only request for security-sensitive actions as unverified until confirmed via an independent second channel.
+
+**Video deepfake**: Real-time video calls may use deepfake technology to impersonate known individuals. A video call alone is not sufficient verification of identity for any signing or access-granting action.
+
+**AI-generated phishing**: LLM-crafted messages are indistinguishable from genuine communication by grammar and tone alone. Apply out-of-band verification regardless of message quality or apparent sender authenticity.
+
+**Verification protocol**: Any request for a signing action, credential change, fund movement, or access grant received via Slack, Telegram, email, voice, or video — regardless of apparent sender — must be verified via an independent channel before action is taken. This applies even if the requestor appears to be a named Protofire colleague.
+
+**Challenge word programme**: Personnel with signing authority or privileged system access must maintain a shared challenge word with at least one trusted peer, rotated quarterly, for use when authenticity of a request is in doubt. Challenge words must not be transmitted via the same channel as the request being challenged.
+
+Training completion is recorded per L1-EVID-004. Completion is a prerequisite for signing authority and privileged access provisioning.
+
+### 5.3 Role-specific training
 
 Personnel in security-sensitive roles (TL, DevOps, signers) must complete additional role-specific training on: signing ceremony procedures (CL-411); deployment runbook execution; monitoring and alerting configuration; incident response procedures for their role.
 

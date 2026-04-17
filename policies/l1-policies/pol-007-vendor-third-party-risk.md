@@ -31,6 +31,9 @@ All third-party and vendor relationships: oracle providers, bridge operators, RP
 | POL-007-R03 | Critical vendor re-assessment annually. High vendor re-assessment every 18 months. | IF assessment_age > threshold THEN flag(overdue) |
 | POL-007-R04 | Vendor incidents reported to CISO within 24 hours. | IF vendor_incident THEN notify(CISO, 24h) |
 | POL-007-R05 | Exit strategy documented for all Critical vendors. | IF vendor.critical AND exit_plan = NULL THEN flag(gap) |
+| POL-007-R06 | For engagements involving exchange integrations or custodial flows: deposit address screening against known-malicious address databases (Chainalysis, TRM Labs, or equivalent) required before go-live. | IF custodial_integration AND address_screening = NULL THEN block(go_live) |
+| POL-007-R07 | Ongoing AML transaction monitoring required for all live custodial and exchange-integrated engagements: automated screening of transaction flows for structuring, layering, and known-illicit address patterns. Monthly review results logged in REG-501. | IF custodial_live AND aml_monitoring = NULL THEN flag(P1) notify(CISO) |
+| POL-007-R08 | Wallet tooling integrity verification: all hardware wallets and signing tool updates must be verified against official manufacturer checksums before deployment or use. Counterfeit or unverified devices are prohibited. | IF tooling_source != official_channel OR checksum_unverified THEN block(signing_authority) |
 
 ## Dependencies
 

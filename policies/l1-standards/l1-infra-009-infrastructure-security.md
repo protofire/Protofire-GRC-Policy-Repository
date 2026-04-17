@@ -25,4 +25,6 @@ last_approval: "Pending"
 | INFRA-R02 | Network segmentation between environments (dev/staging/production). | `IF env_segmentation = FALSE THEN flag(critical)` |
 | INFRA-R03 | Patch management: Critical within 72h, High within 7d, Medium within 30d. | `IF patch.severity = Critical AND age > 72h THEN flag(overdue)` |
 | INFRA-R04 | WAF/DDoS protection for all public endpoints. | `IF public_endpoint AND waf = FALSE THEN flag(gap)` |
+| INFRA-R05 | DNSSEC enabled for all production domains; DNS registrar accounts protected with hardware MFA (FIDO2/WebAuthn); any DNS record change triggers P2 alert within 5 minutes (STD-102 §4.4). | `IF dnssec = FALSE OR registrar_mfa != hardware THEN flag(critical)` |
+| INFRA-R06 | BGP hijacking monitoring active for all production IP ranges. | `IF bgp_monitoring = FALSE AND public_ip_range THEN flag(gap)` |
 

@@ -225,6 +225,28 @@ Alert delivery: webhook → SIEM + Slack #on-chain-alerts + PagerDuty (P1/P2)
 
 Monthly validation: trigger test alerts to confirm pipeline integrity (logged in REG-504)
 
+## 4.4 DNS Security Monitoring (GAP-19)
+
+All production domains used by Protofire or client deployments (frontends, RPC endpoints, APIs, signing interfaces) must have the following controls applied:
+
+DNSSEC enabled and validated for all production domains — absence is a INFRA-R05 finding
+
+DNS registrar accounts protected with hardware MFA (FIDO2/WebAuthn); password-only registrar access is prohibited
+
+DNS zone change alerting: any A, CNAME, NS, or MX record modification must trigger a P2 alert within 5 minutes of change
+
+Authoritative DNS provider must support DNSSEC and retain change audit logs for minimum 12 months
+
+BGP hijacking monitoring active for all production IP ranges (BGPmon, Cloudflare Radar, or equivalent)
+
+Critical DNS record TTL set to ≤300 seconds to enable rapid recovery in a hijack scenario
+
+DNS zone file version-controlled; monthly diff check to detect unauthorised drift
+
+`IF dns_record_change AND NOT change_authorized THEN alert(CISO, P2, 5min)`
+
+`IF dnssec_validation_fail THEN alert(CISO, P1, immediate)`
+
 # 5. Roles &amp; Responsibilities
 
 Role

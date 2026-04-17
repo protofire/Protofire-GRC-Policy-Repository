@@ -1,11 +1,13 @@
 # Gap Tracker
 
-> Last-Updated: 2026-04-08
+> Last-Updated: 2026-04-17
 
 ## Open Gaps
 
 | ID | Severity | Gap | Owner | Target | Status |
 |---|---|---|---|---|---|
+| GAP-19 | HIGH | DNS security controls absent from STD-102 and L1-INFRA-009 (CoW DAO DNS hijacking vector) | CISO + DevOps | 30 days | Resolved — STD-102 §4.4 + INFRA-R05/R06 added 2026-04-17 |
+| GAP-20 | HIGH | AML ongoing monitoring absent for custodial/exchange integrations (KuCoin laundering vector) | CISO + NO | 30 days | Resolved — POL-007 R06/R07/R08 added 2026-04-17 |
 | GAP-10 | MEDIUM | DPO supervisory authority registration | CISO + Legal | 60 days | Open |
 | GAP-16 | LOW | Statement of Applicability not formalized | CISO + CEO | 90 days | Open |
 | GAP-17 | LOW | Internal Audit Programme document | CISO | 90 days | Open |
